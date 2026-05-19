@@ -1,0 +1,24 @@
+﻿using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml;
+
+namespace winui_mvvm_app1.Views
+{
+    public sealed partial class AddActivityPage : Page
+    {
+        public AddActivityPage()
+        {
+            this.InitializeComponent();
+            this.DataContext = App.ViewModel; // bind page to the singleton ViewModel
+        }
+
+        private void Save_Click(object sender, Microsoft.UI.Xaml.RoutedEventArgs e)
+        {
+            App.ViewModel.SaveNewActivity();
+        }
+
+        private void Clear_Click(object sender, Microsoft.UI.Xaml.RoutedEventArgs e)
+        {
+            App.ViewModel.ClearNewActivity();
+        }
+    }
+}

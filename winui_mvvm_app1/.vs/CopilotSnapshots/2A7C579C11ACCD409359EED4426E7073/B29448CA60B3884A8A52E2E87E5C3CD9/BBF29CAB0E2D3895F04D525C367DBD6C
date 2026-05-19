@@ -1,0 +1,25 @@
+﻿using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml;
+using System;
+
+namespace winui_mvvm_app1.Views
+{
+    public sealed partial class ActivitiesPage : Page
+    {
+        public ActivitiesPage()
+        {
+            this.InitializeComponent();
+            // Bind DataContext to the singleton ViewModel exposed on App for use in x:Bind
+            this.DataContext = App.ViewModel;
+        }
+
+        private void SortCombo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (SortCombo.SelectedItem is ComboBoxItem item)
+            {
+                var criteria = item.Content?.ToString();
+                App.ViewModel.SortBy(criteria);
+            }
+        }
+    }
+}

@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44827663-5127-4858-8CDD-5D8A050556E6}|winui_mvvm_app1\\winui_mvvm_app1.csproj|c:\\users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\views\\addactivitypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44827663-5127-4858-8CDD-5D8A050556E6}|winui_mvvm_app1\\winui_mvvm_app1.csproj|solutionrelative:winui_mvvm_app1\\views\\addactivitypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44827663-5127-4858-8CDD-5D8A050556E6}|winui_mvvm_app1\\winui_mvvm_app1.csproj|c:\\users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44827663-5127-4858-8CDD-5D8A050556E6}|winui_mvvm_app1\\winui_mvvm_app1.csproj|solutionrelative:winui_mvvm_app1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44827663-5127-4858-8CDD-5D8A050556E6}|winui_mvvm_app1\\winui_mvvm_app1.csproj|c:\\users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\winui_mvvm_app1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{44827663-5127-4858-8CDD-5D8A050556E6}|winui_mvvm_app1\\winui_mvvm_app1.csproj|solutionrelative:winui_mvvm_app1\\winui_mvvm_app1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44827663-5127-4858-8CDD-5D8A050556E6}|winui_mvvm_app1\\winui_mvvm_app1.csproj|c:\\users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44827663-5127-4858-8CDD-5D8A050556E6}|winui_mvvm_app1\\winui_mvvm_app1.csproj|solutionrelative:winui_mvvm_app1\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44827663-5127-4858-8CDD-5D8A050556E6}|winui_mvvm_app1\\winui_mvvm_app1.csproj|c:\\users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44827663-5127-4858-8CDD-5D8A050556E6}|winui_mvvm_app1\\winui_mvvm_app1.csproj|solutionrelative:winui_mvvm_app1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44827663-5127-4858-8CDD-5D8A050556E6}|winui_mvvm_app1\\winui_mvvm_app1.csproj|c:\\users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\models\\fitnessactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44827663-5127-4858-8CDD-5D8A050556E6}|winui_mvvm_app1\\winui_mvvm_app1.csproj|solutionrelative:winui_mvvm_app1\\models\\fitnessactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44827663-5127-4858-8CDD-5D8A050556E6}|winui_mvvm_app1\\winui_mvvm_app1.csproj|c:\\users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\viewmodels\\bindablebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44827663-5127-4858-8CDD-5D8A050556E6}|winui_mvvm_app1\\winui_mvvm_app1.csproj|solutionrelative:winui_mvvm_app1\\viewmodels\\bindablebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44827663-5127-4858-8CDD-5D8A050556E6}|winui_mvvm_app1\\winui_mvvm_app1.csproj|c:\\users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\views\\activitiespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44827663-5127-4858-8CDD-5D8A050556E6}|winui_mvvm_app1\\winui_mvvm_app1.csproj|solutionrelative:winui_mvvm_app1\\views\\activitiespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ActivitiesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\Views\\ActivitiesPage.xaml.cs",
+              "RelativeDocumentMoniker": "winui_mvvm_app1\\Views\\ActivitiesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\Views\\ActivitiesPage.xaml.cs",
+              "RelativeToolTip": "winui_mvvm_app1\\Views\\ActivitiesPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T19:37:20.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddActivityPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\Views\\AddActivityPage.xaml.cs",
+              "RelativeDocumentMoniker": "winui_mvvm_app1\\Views\\AddActivityPage.xaml.cs",
+              "ToolTip": "C:\\Users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\Views\\AddActivityPage.xaml.cs",
+              "RelativeToolTip": "winui_mvvm_app1\\Views\\AddActivityPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T19:29:36.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "winui_mvvm_app1",
+              "DocumentMoniker": "C:\\Users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\winui_mvvm_app1.csproj",
+              "RelativeDocumentMoniker": "winui_mvvm_app1\\winui_mvvm_app1.csproj",
+              "ToolTip": "C:\\Users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\winui_mvvm_app1.csproj",
+              "RelativeToolTip": "winui_mvvm_app1\\winui_mvvm_app1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-19T19:24:44.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "winui_mvvm_app1\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\App.xaml.cs",
+              "RelativeToolTip": "winui_mvvm_app1\\App.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAWwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T19:21:46.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "winui_mvvm_app1\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "winui_mvvm_app1\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAewGkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T19:21:43.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BindableBase.cs",
+              "DocumentMoniker": "C:\\Users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\ViewModels\\BindableBase.cs",
+              "RelativeDocumentMoniker": "winui_mvvm_app1\\ViewModels\\BindableBase.cs",
+              "ToolTip": "C:\\Users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\ViewModels\\BindableBase.cs",
+              "RelativeToolTip": "winui_mvvm_app1\\ViewModels\\BindableBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T19:21:36.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FitnessActivity.cs",
+              "DocumentMoniker": "C:\\Users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\Models\\FitnessActivity.cs",
+              "RelativeDocumentMoniker": "winui_mvvm_app1\\Models\\FitnessActivity.cs",
+              "ToolTip": "C:\\Users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\Models\\FitnessActivity.cs",
+              "RelativeToolTip": "winui_mvvm_app1\\Models\\FitnessActivity.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T19:21:30.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "winui_mvvm_app1\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\yaros\\winui_mvvm_app\\winui_mvvm_app1\\winui_mvvm_app1\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "winui_mvvm_app1\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T19:21:33.593Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+﻿using System.ComponentModel;
+using System.Runtime.CompilerServices;
+
+namespace PracticeWork8.ViewModels
+{
+    // Base class implementing INotifyPropertyChanged and a SetProperty helper.
+    public abstract class BindableBase : INotifyPropertyChanged
+    {
+        // Make the event nullable to match the interface's nullable annotation
+        public event PropertyChangedEventHandler? PropertyChanged;
+
+        protected void OnPropertyChanged([CallerMemberName] string? propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName ?? string.Empty));
+        }
+
+        protected bool SetProperty<T>(ref T storage, T value, [CallerMemberName] string? propertyName = null)
+        {
+            if (Equals(storage, value))
+                return false;
+            storage = value;
+            OnPropertyChanged(propertyName);
+            return true;
+        }
+    }
+}

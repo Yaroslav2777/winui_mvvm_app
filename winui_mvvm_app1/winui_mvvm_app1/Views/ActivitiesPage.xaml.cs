@@ -1,0 +1,27 @@
+using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml;
+using System;
+
+namespace winui_mvvm_app1.Views
+{
+    public sealed partial class ActivitiesPage : Page
+    {
+        public ActivitiesPage()
+        {
+            // InitializeComponent is generated from XAML during build. Ensure the XAML file is included as a Page in the project
+            this.InitializeComponent();
+            // Bind DataContext to the singleton ViewModel exposed on App for use in x:Bind
+            this.DataContext = App.ViewModel;
+        }
+
+        private void SortCombo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (sender is Microsoft.UI.Xaml.Controls.ComboBox cb && cb.SelectedItem is Microsoft.UI.Xaml.Controls.ComboBoxItem item)
+            {
+                var criteria = item.Content?.ToString();
+                PracticeWork8.ViewModels.MainViewModel vm = App.ViewModel;
+                vm.SortBy(criteria);
+            }
+        }
+    }
+}

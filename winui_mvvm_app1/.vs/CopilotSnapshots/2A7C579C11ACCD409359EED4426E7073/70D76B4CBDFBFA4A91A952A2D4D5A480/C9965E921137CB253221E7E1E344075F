@@ -1,0 +1,102 @@
+﻿using PracticeWork8.Data;
+using PracticeWork8.Models;
+using System;
+using System.Collections.ObjectModel;
+using System.Linq;
+
+namespace PracticeWork8.ViewModels
+{
+    public class MainViewModel : BindableBase
+    {
+        private readonly AppDbContext _db;
+
+        private ObservableCollection<FitnessActivity> _activities = new ObservableCollection<FitnessActivity>();
+        public ObservableCollection<FitnessActivity> Activities
+        {
+            get => _activities;
+            set => SetProperty(ref _activities, value);
+        }
+
+        private string _newActivityTitle = string.Empty;
+        public string NewActivityTitle { get => _newActivityTitle; set => SetProperty(ref _newActivityTitle, value); }
+
+        // Input backing properties as strings to simplify TwoWay binding with TextBox.Text
+        private string _newActivityDurationText = string.Empty;
+        public string NewActivityDurationText { get => _newActivityDurationText; set => SetProperty(ref _newActivityDurationText, value); }
+
+        private string _newActivityCaloriesText = string.Empty;
+        public string NewActivityCaloriesText { get => _newActivityCaloriesText; set => SetProperty(ref _newActivityCaloriesText, value); }
+
+        private int _totalActivitiesCount;
+        public int TotalActivitiesCount { get => _totalActivitiesCount; private set => SetProperty(ref _totalActivitiesCount, value); }
+
+        public MainViewModel()
+        {
+            _db = new AppDbContext();
+            // For testing reset DB on each run
+            _db.Database.EnsureDeleted();
+            _db.Database.EnsureCreated();
+
+            // Seed some initial data if empty
+            if (!_db.Activities.Any())
+            {
+                _db.Activities.Add(new FitnessActivity { Title = "Біг", DurationInMinutes = 30, CaloriesBurned = 300, ActivityDate = DateTime.Now.AddDays(-1) });
+                _db.Activities.Add(new FitnessActivity { Title = "Йога", DurationInMinutes = 60, CaloriesBurned = 200, ActivityDate = DateTime.Now });
+                _db.SaveChanges();
+            }
+
+            LoadActivities();
+        }
+
+        public void LoadActivities()
+        {
+            var list = _db.Activities.OrderByDescending(a => a.ActivityDate).ToList();
+            Activities = new ObservableCollection<FitnessActivity>(list);
+            TotalActivitiesCount = Activities.Count;
+        }
+
+        public void SaveNewActivity()
+        {
+            // Parse numeric inputs from text properties; default to 0 if parsing fails
+            int duration = 0;
+            int calories = 0;
+            int.TryParse(NewActivityDurationText, out duration);
+            int.TryParse(NewActivityCaloriesText, out calories);
+
+            var activity = new FitnessActivity
+            {
+                Title = NewActivityTitle ?? string.Empty,
+                DurationInMinutes = duration,
+                CaloriesBurned = calories,
+                ActivityDate = DateTime.Now
+            };
+            _db.Activities.Add(activity);
+            _db.SaveChanges();
+            Activities.Insert(0, activity);
+            TotalActivitiesCount = Activities.Count;
+            ClearNewActivity();
+        }
+
+        public void ClearNewActivity()
+        {
+            NewActivityTitle = string.Empty;
+            NewActivityDurationText = string.Empty;
+            NewActivityCaloriesText = string.Empty;
+        }
+
+        public void SortBy(string criteria)
+        {
+            switch (criteria)
+            {
+                case "Date":
+                    Activities = new ObservableCollection<FitnessActivity>(Activities.OrderByDescending(a => a.ActivityDate));
+                    break;
+                case "Title":
+                    Activities = new ObservableCollection<FitnessActivity>(Activities.OrderBy(a => a.Title));
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+}
